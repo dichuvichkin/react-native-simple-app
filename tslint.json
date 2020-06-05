@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended", "tslint-config-airbnb"],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "object-shorthand-properties-first": false,
+    "member-access": false,
+    "no-use-before-declare": false,
+    "prefer-array-literal": false,
+    "function-name": false,
+    "ordered-imports": false,
+    "import-name": false,
+    "variable-name": false,
+    "align": [true, "parameters", "statements"],
+    "ter-arrow-parens": [true, "as-needed"],
+    "max-line-length": [true, 120]
+  }
+}
